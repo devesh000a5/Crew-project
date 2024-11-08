@@ -1,0 +1,174 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Section Styling */
+.section {
+    width: 100%;
+    padding: 100px 0;
+}
+
+/* First Section: Dynamic Promo */
+#dynamic-promo {
+    background-color: #1e1e1e;
+}
+
+.header-tex {
+    
+    left: 25px;
+    top: 25px;
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;  /* to shift right* */
+}
+
+.nav-buttons button {
+    background-color: white;
+    color: #121212;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.main-content {
+  
+}
+
+.right-section {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items:center;
+}
+.left-section {
+    position: absolute;
+    left: 80px;
+    
+}
+
+.left-section img{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.input-container textarea {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;  /* Take full width of its parent container */
+    max-width: 500px; /* Optional: maximum width */
+    outline: none;
+    resize: vertical; /* Allow the user to resize vertically */
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.input-container button {
+    background-color: white;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Second Section: How It Works */
+#how-it-works {
+    background-color: #1e1e1e;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.how-it-works-video {
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 15px;
+}
+
+.header-text {
+    
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.header-te {
+    
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.header-t {
+    
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.h-text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+
+.description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #aaa;
+    margin-bottom: 20px;
+}
